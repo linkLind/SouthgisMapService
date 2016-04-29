@@ -7,7 +7,7 @@
 //
 
 #import "SouthgisTdtMapService.h"
-
+#import "SGXMLParser.h"
 
 //天地图web 搜索服务接口(POI,地名地址，公交路线==)
 #define TIANDITU_SEARCH_URL @"http://map.tianditu.com/query.shtml"
@@ -130,7 +130,7 @@
 
 //        
         //解析XML
-        SHXMLParser *parser = [[SHXMLParser alloc]init];
+        SGXMLParser *parser = [[SGXMLParser alloc]init];
         NSDictionary *resultObject = [parser parseData:data];
         NSDictionary *resultStr = [resultObject objectForKey:@"result"];
         if (resultObject == nil || [resultStr allKeys].count == 0) {
