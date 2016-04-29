@@ -32,10 +32,10 @@ Southgis Map Service .Such as POI search ,Bus Line Search ,Car Line Search.It is
     
       -(void)busLineSearch:(BusLineSearch *)entity success:(SuccessBlock)success failed:(FailedBlock)failed
       
-   //car Line Search
+    //car Line Search
     
     -(void)carLineSearch :(CarLineSearch *)driverEntity success:(SuccessBlock)success andFail:(FailedBlock)fail
     
 # Install
 
-pod 'SouthgisMapService'
+  pod 'SouthgisMapService'
