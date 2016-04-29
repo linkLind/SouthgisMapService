@@ -20,7 +20,7 @@ static NSString * const DESC = @"description";//description
 
 
 
-
+/*
 +(SouthgisBaseRequest* )parseResponseErrorJSON:(id)json
 {
     NSLog(@"%@",json);
@@ -78,7 +78,7 @@ static NSString * const DESC = @"description";//description
 {
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:json options:NSJSONWritingPrettyPrinted error:nil];
     //格式化打印输出至控制台
-    NSString *responseJSON = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+  //  NSString *responseJSON = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
     
     NSDictionary *dic_json = [NSJSONSerialization JSONObjectWithData:jsonData options:kNilOptions error:nil];
     if ([NSJSONSerialization isValidJSONObject:dic_json]) {
@@ -96,6 +96,6 @@ static NSString * const DESC = @"description";//description
 }
 
 
-
+*/
 
 @end

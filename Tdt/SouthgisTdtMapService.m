@@ -140,15 +140,15 @@
         
         CarLine *carLine = [[CarLine alloc]init];
         
-        carLine.mapInfo = [SHXMLParser getDataAtPath:@"result.mapinfo" fromResultObject:resultObject];
+        carLine.mapInfo = [SGXMLParser getDataAtPath:@"result.mapinfo" fromResultObject:resultObject];
         
-        carLine.distance = [SHXMLParser getDataAtPath:@"result.distance" fromResultObject:resultObject];
+        carLine.distance = [SGXMLParser getDataAtPath:@"result.distance" fromResultObject:resultObject];
         
-        NSArray	*dataArray = [SHXMLParser getDataAtPath:@"result.routes.item" fromResultObject:resultObject];
+        NSArray	*dataArray = [SGXMLParser getDataAtPath:@"result.routes.item" fromResultObject:resultObject];
         
         carLine.carRoutes=[NSArray yy_modelArrayWithClass:[CarLineNode class] json:dataArray];
         
-        carLine.routelatlon = [SHXMLParser getDataAtPath:@"result.routelatlon" fromResultObject:resultObject];
+        carLine.routelatlon = [SGXMLParser getDataAtPath:@"result.routelatlon" fromResultObject:resultObject];
         
         success(carLine);
         

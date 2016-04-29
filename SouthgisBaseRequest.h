@@ -49,7 +49,7 @@ typedef void (^FailedBlock)(id obj);
  *
  *  @return
  */
-+ (SouthgisBaseRequest *)parseResponseErrorJSON:(id)json;
+//+ (SouthgisBaseRequest *)parseResponseErrorJSON:(id)json;
 
 /**
  *  解析成功或失败状态JSON
@@ -58,7 +58,7 @@ typedef void (^FailedBlock)(id obj);
  *
  *  @return
  */
-+ (SouthgisBaseRequest *)parseResponseStatusJSON:(id)json;
+//+ (SouthgisBaseRequest *)parseResponseStatusJSON:(id)json;
 
 /**
  *  解析版本号及升级URL JSON
@@ -67,6 +67,6 @@ typedef void (^FailedBlock)(id obj);
  *
  *  @return
  */
-+ (SouthgisBaseRequest *)parseResponseUpdateJSON:(id)json;
+//+ (SouthgisBaseRequest *)parseResponseUpdateJSON:(id)json;
 
 @end

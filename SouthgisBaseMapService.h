@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SouthgisArcGisExtenHeadFile.h"
+//#import "SouthgisArcGisExtenHeadFile.h"
 #import "SouthgisBaseRequest.h"
-
+#import "YYModel.h"
 
 #pragma mark - Define
 
