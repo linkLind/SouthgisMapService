@@ -39,16 +39,6 @@
 -(instancetype) initKeyWord;
 
 
-/**
- *  @author crash         crash_wu@163.com   , 16-04-25 15:04:30
- *
- *  @brief 请求地址拼接
- *
- *  @param dict 请求参数
- *  @param uri 请求地址 例如：/geocoder/v2/?
- *
- *  @return 请求地址拼接
- */
--(NSString *)p_bdMapServerURLWithDictionary:( NSDictionary<NSString *, id> *)dict andURI:( NSString *)uri;
+
 
 @end

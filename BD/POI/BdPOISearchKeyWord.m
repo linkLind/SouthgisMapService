@@ -7,7 +7,7 @@
 //
 
 #import "BdPOISearchKeyWord.h"
-#import "CocoaSecurity.h"
+
 #include <CommonCrypto/CommonCrypto.h>
 
 
